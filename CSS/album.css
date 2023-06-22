@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Century Gothic;
+}
+
+
+.container{
+    margin: 0 auto;
+    padding: 2% 8%;
+}
+
+#menu{
+    background-color: rgb(14, 140, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#menu ul a{
+    color: White;
+    text-shadow: black 2px 2px 2px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+.albumFotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    list-style: none;
+}
+
+.albumFotos li{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid rgb(14, 140, 14);
+    box-shadow: 2px 2px 6px black;
+}
+
+#Cfoto1{
+    background: url(https://a.cdn-hotels.com/gdcs/production143/d541/a555dbcb-b412-47ac-bbf0-a288a5716146.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto2{
+    background: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2020/10/cachoeiras.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto3{
+    background: url(https://www.otempo.com.br/image/contentid/policy:1.2849704:1681418769/farofa3-jpeg.jpeg?f=3x2&w=1224) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto4{
+    background: url(https://vemproparque.com.br/wp-content/uploads/2023/01/cachoeira.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto5{
+    background: url(https://i.em.com.br/Gu_kXyM57ZvhDQBtBZ3qd3rucLs=/1650x1087/smart/imgsapp.em.com.br/app/noticia_127983242361/2022/09/15/1393799/cachoeira-grande-na-serra-do-cipo_1_153711.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto6{
+    background: url(https://catracalivre.com.br/wp-content/uploads/2020/03/poco-azul-lavrinhas-cachoeiras-em-sao-paulo.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto7{
+    background: url(https://www.acquaviagens.com.br/upload/blog/2022/10/1954/small/rio-do-peixe-bonito-piraputangas-ok.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto8{
+    background: url(https://lirp.cdn-website.com/36e30871/dms3rep/multi/opt/Fuma%C3%A7a-640w.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Cfoto9{
+    background: url(https://www.trilhaseaventuras.com.br/wp-content/uploads/2018/07/Cachoeiras-no-Rio-de-Janeiro-Primatas.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto1{
+    background: url(https://apuamarafting.com.br/wp-content/uploads/2018/03/tirolesa.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto2{
+    background: url(https://territorioselvagem.com.br/wp-content/uploads/2019/08/CAPA-3.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto3{
+    background: url(https://acrocabo.com.br/blog/wp-content/uploads/2022/12/cabos-de-aco-e-acessorios-em-tirolesa-e-arvorismo.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto4{
+    background: url(https://territorioselvagem.com.br/wp-content/uploads/2019/08/CAPA-2.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto5{
+    background: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5c/85/31/caption.jpg?w=500&h=400&s=1) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto6{
+    background: url(https://brotasonline.com.br/wp-content/uploads/2022/10/Tirolesa-Brotas-00007.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto7{
+    background: url(https://eulalia.parquegasper.com.br/wp-content/uploads/2021/07/parque-gasper-aventuras-bento-goncalves-img-6-6.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto8{
+    background: url(https://www.pipaaventura.com.br/wp-content/uploads/2022/04/tirolesa-com-esse-visual.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Tfoto9{
+    background: url(https://loteamentocavalinno.com.br/blog/wp-content/uploads/2020/04/tirolesa2.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto1{
+    background: url(https://estacaofloresta.com.br/wp-content/uploads/2017/12/arvorismo-no-brasil.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto2{
+    background: url(https://apuamarafting.com.br/wp-content/uploads/2017/09/arvorismo03-1700x956.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto3{
+    background: url(https://loteamentocavalinno.com.br/blog/wp-content/uploads/2020/03/Arvorismooqueeecomocomecar-2-676x507.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto4{
+    background: url(https://desviantes.blob.core.windows.net/desviantes/production/media/uploads/arvorismo_venda_nova_menor.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto5{
+    background: url(https://brotasonline.com.br/wp-content/uploads/2022/10/Arvorismo-Brotas-00007.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto6{
+    background: url(https://www.vidadeturista.com/wp-content/uploads/2014/01/arvorismo-hotel-cabanas.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto7{
+    background: url(https://www.vidadeturista.com/wp-content/uploads/2014/01/arvorismo-hotel-cabanas.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto8{
+    background: url(https://canelaema.com.br/wp-content/uploads/2015/09/3.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Afoto9{
+    background: url(https://parquevilavelha.com.br/wp-content/uploads/2020/10/arvorismo-47.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto1{
+    background: url(https://apuamarafting.com.br/wp-content/uploads/2018/03/rapel.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto2{
+    background: url(https://www.trilhaseaventuras.com.br/wp-content/uploads/2014/01/rapel-1.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto3{
+    background: url(https://parquenacionaldatijuca.rio/wp-content/uploads/2020/02/rapel-768x965.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto4{
+    background: url(https://www.trilhaseaventuras.com.br/wp-content/uploads/2014/01/rapel-4.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto5{
+    background: url(https://blog.columbiasportswear.com.br/wp-content/uploads/2022/12/drastosa_columbia_image_809.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto6{
+    background: url(https://www.ekoapark.com.br/wp-content/uploads/2020/07/Site_bilheteria_Rapel1.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto7{
+    background: url(https://portalvidalivre.com/uploads/article/image/63/Thumb_rapel.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto8{
+    background: url(https://www.adrena.me/blog/wp-content/uploads/2019/09/o-que-e-rapel.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+#Rfoto9{
+    background: url(https://conceitos.com/wp-content/uploads/2015/06/Rapel.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #FFFFFF;
+}
+
+.albumFotos li:hover{
+    transform: scale(1.5);
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fotos1 h1, #fotos2 h1, #fotos3 h1, #fotos4{
+    text-align: center;
+    color: rgb(14, 140, 14);
+}
+
+@media (max-width: 768px){
+    .albumFotos{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+    .albumFotos li{
+        width: 120%;
+        height: 200px;
+    }
+}
